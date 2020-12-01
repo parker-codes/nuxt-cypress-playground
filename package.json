@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-cypress-playground",
+  "version": "1.0.0",
+  "description": "My flawless Nuxt.js project",
+  "author": "Parker McMullin",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest",
+    "test:e2e": "cypress open --browser chrome",
+    "test:e2e:silent": "cypress run"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/eslint-module": "^3.0.1",
+    "@testing-library/cypress": "^7.0.2",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "cypress": "^6.0.1",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.1.0",
+    "prettier": "^1.16.4",
+    "test-data-bot": "^0.8.0",
+    "vue-jest": "^4.0.0-0"
+  }
+}
